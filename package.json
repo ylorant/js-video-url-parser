@@ -7,7 +7,7 @@
   "types": "lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zod-/jsVideoUrlParser.git"
+    "url": "https://github.com/ylorant/js-video-url-parser.git"
   },
   "keywords": [
     "parser",
@@ -37,7 +37,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zod-/jsVideoUrlParser/issues"
+    "url": "https://github.com/ylorant/js-video-url-parser/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
