@@ -500,7 +500,7 @@
 
   Twitch.prototype.parseUrl = function (url, result, params) {
     var match;
-    match = url.match(/(clips\.)?twitch\.tv\/(?:(?:videos\/(\d+))|(\w+(?:-[\w\d-]+)?)(?:\/clip\/(\w+))?)/i);
+    match = url.match(/(clips\.)?twitch\.tv\/(?:(?:videos\/(\d+))|(\w+(?:-[\w\d-]+)?)(?:\/clip\/([\w-]+))?)/i);
 
     if (match && match[2]) {
       //video
